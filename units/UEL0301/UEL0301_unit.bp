@@ -12,7 +12,7 @@ UnitBlueprint {
         BuildTime = 12000,
         StorageEnergy = 750,
         StorageMass = 450,
-    }
+    },
     EnhancementPresets = {
         RAS = {
             Description = "<LOC uel0301_RAS_desc>SACU (RAS preset)",
