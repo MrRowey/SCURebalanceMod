@@ -1,3 +1,11 @@
+# V3
+
+- Chnages mass cost for all 4 SCUs
+- Changed Energy Cost for all SCUs with the ratio of 1:12
+- Chanaged Build Time for all SCUs with the ratio of 1:7
+- Incresed the Hp of All SCUs
+- Incresed the Regen of all SCUs
+
 # V1 SCU Balance
 This is the first iteration of the ideas i had to make it so that SCU had more variaty in games and not just used Ras or Rambo.
 
