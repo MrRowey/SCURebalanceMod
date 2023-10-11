@@ -1,11 +1,11 @@
 name = "SCU Rebalance"
-version = 2
+version = 3
 copyright = "Rowey"
 description = "Roweys Idead for chaging the SCUs in the game"
 author = "Rowey"
 url = ""
 icon = ""
-uid = "SCU-v02"
+uid = "SCU-v03"
 exclusive = false
 ui_only = false
 conflicts = {}
