@@ -1,19 +1,17 @@
 UnitBlueprint {
     Merge = true,
     Defense = {
-        Health = 11000,
-        MaxHealth = 11000,
-        RegenRate = 7,
+        Health = 13500,
+        MaxHealth = 13500,
+        RegenRate = 10,
     },
     Economy = {
-        BuildCostEnergy = 28000,
-        BuildCostMass = 2000,
-        BuildRate = 40,
-        BuildTime = 12000,
-        StorageEnergy = 675,
-        StorageMass = 400,
-        ProductionPerSecondEnergy = 300,
-        ProductionPerSecondMass = 3,
+        BuildCostEnergy = 25200,
+        BuildCostMass = 25200,
+        BuildRate = 45,
+        BuildTime = 14700,
+        StorageEnergy = 750,
+        StorageMass = 450,
     },
     EnhancementPresets = {
         AdvancedCombat = {
@@ -337,7 +335,7 @@ UnitBlueprint {
     },
     Weapon = {
         {
-            Damage = 200,
+            Damage = 150,
         },
         {},
         {},
