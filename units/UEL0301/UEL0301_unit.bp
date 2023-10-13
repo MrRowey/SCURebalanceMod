@@ -72,6 +72,42 @@ UnitBlueprint {
             SortCategory = "SORTOTHER",
             UnitName = "<LOC uel0301_SupportCombat_name>SACU (Support Combat preset)",
         },
+
+        -- Removed
+        --BubbleShield = {
+        --    Description = "<LOC uel0301_BubbleShield_desc>SACU (Shield preset)",
+        --    BuildIconSortPriority = 30,
+        --    Enhancements = {
+        --        "Shield",
+        --        "ShieldGeneratorField",
+        --    },
+        --    HelpText = "<LOC uel0301_BubbleShield_help>Support Armored Command Unit. Enhanced during construction with the bubble shield generator enhancement.",
+        --    SortCategory = "SORTOTHER",
+        --    UnitName = "<LOC uel0301_BubbleShield_name>SACU (Shield preset)",
+        --},
+        --IntelJammer = {
+        --    Description = "<LOC uel0301_IntelJammer_desc>SACU (Intel Jammer preset)",
+        --    BuildIconSortPriority = 35,
+        --    Enhancements = {
+        --        "RadarJammer",
+        --        "SensorRangeEnhancer",
+        --    },
+        --    HelpText = "<LOC uel0301_IntelJammer_help>Support Armored Command Unit. Enhanced during construction with the radar jammer and enhanced sensor system enhancements.",
+        --    SortCategory = "SORTOTHER",
+        --    UnitName = "<LOC uel0301_IntelJammer_name>SACU (Intel Jammer preset)",
+        --},
+        --Rambo = {
+        --    Description = "<LOC uel0301_Rambo_desc>SACU (Rambo preset)",
+        --    BuildIconSortPriority = 25,
+        --    Enhancements = {
+        --        "AdvancedCoolingUpgrade",
+        --        "HighExplosiveOrdnance",
+        --        "Shield",
+        --    },
+        --    HelpText = "<LOC uel0301_Rambo_help>Support Armored Command Unit. Enhanced during construction with a personal shield, energy accelerator and heavy plasma refractor enhancements.",
+        --    SortCategory = "SORTOTHER",
+        --    UnitName = "<LOC uel0301_Rambo_name>SACU (Rambo preset)",
+        --},
     },
     Enhancements = {
         -- Left
@@ -212,6 +248,7 @@ UnitBlueprint {
             Mesh = "/effects/entities/Shield01/Shield01_mesh",
             MeshZ = "/effects/entities/Shield01/Shield01z_mesh",
             Name = "<LOC enhancements_0074>Shield Generator Field",
+            -- Prerequisite = "Shield",
             ShieldEnergyDrainRechargeTime = 5,
             ShieldMaxHealth = 25000,
             ShieldRechargeTime = 120,
@@ -231,6 +268,7 @@ UnitBlueprint {
             Icon = "sgf",
             Name = "<LOC enhancements_0075>Remove Shields",
             RemoveEnhancements = {
+                --"Shield",
                 "ShieldGeneratorField",
                 "ShieldGeneratorFieldRemove",
             },
@@ -310,6 +348,34 @@ UnitBlueprint {
                 y = 50,
             },
         },
+
+        --RadarJammer = {
+        --    BuildCostEnergy = 8000,
+        --    BuildCostMass = 300,
+        --    BuildTime = 2500,
+        --    Icon = "rj",
+        --    MaintenanceConsumptionPerSecondEnergy = 100,
+        --    Name = "<LOC enhancements_0067>Radar Jammer",
+        --    NewJammerRadius = 26,
+        --    ShowBones = { "Jetpack" },
+        --    Slot = "Back",
+        --    UpgradeEffectBones = { "Jetpack" },
+        --    UpgradeUnitAmbientBones = { "UEL0301" },
+        --},
+        --RadarJammerRemove = {
+        --    BuildCostEnergy = 1,
+        --    BuildCostMass = 1,
+        --    BuildTime = 0.1,
+        --    HideBones = { "Jetpack" },
+        --    Icon = "rj",
+        --    Name = "<LOC enhancements_0068>Remove Radar Jammer",
+        --    Prerequisite = "RadarJammer",
+        --    RemoveEnhancements = {
+        --        "RadarJammer",
+        --        "RadarJammerRemove",
+        --    },
+        --    Slot = "Back",
+        --},
     },
     Intel = {
         JammerBlips = 15,

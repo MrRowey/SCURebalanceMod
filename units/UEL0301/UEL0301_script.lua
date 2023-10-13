@@ -157,9 +157,9 @@ UEL0301 = ClassUnit(CommandUnit) {
         elseif enh == 'SensorRangeEnhancer' then
             self:SetIntelRadius('Vision', bp.NewVisionRadius or 104)
             self:SetIntelRadius('Omni', bp.NewOmniRadius or 104)
-            self:SetIntelRadius('Jammer', bp.NewJammerRadius or 26)
-            self.RadarJammerEnh = true
+            self:SetIntelRadius('Jammer', bp.NewJammerRadius or 28)
             self:EnableUnitIntel('Enhancement', 'Jammer')
+            self.RadarJammerEnh = true
             self:AddToggleCap('RULEUTC_JammingToggle')
         elseif enh == 'SensorRangeEnhancerRemove' then
             local bpIntel = self:GetBlueprint().Intel
