@@ -193,7 +193,7 @@ UEL0301 = ClassUnit(CommandUnit) {
                 self.IntelEffectsBag = {}
                 self:CreateTerrainTypeEffects(self.IntelEffects, 'FXIdle',  self.Layer, nil, self.IntelEffectsBag)
             end
-            self:SetEnergyMaintenanceConsumptionOverride(self:GetBlueprint().Enhancements['RadarJammer'].MaintenanceConsumptionPerSecondEnergy or 0)
+            self:SetEnergyMaintenanceConsumptionOverride(self:GetBlueprint().Enhancements['SensorRangeEnhancer'].MaintenanceConsumptionPerSecondEnergy or 0)
             self:SetMaintenanceConsumptionActive()
         end
     end,

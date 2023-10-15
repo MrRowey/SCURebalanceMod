@@ -93,6 +93,48 @@ UnitBlueprint {
             UnitName = "<LOC url0301_ExpCombat_name>SACU (Experimental Combat preset)",
         },
 
+        -- Not Used
+        --AntiAir = {
+        --    Description = "<LOC url0301_AntiAir_desc>SACU (Anti-Air preset)",
+        --    BuildIconSortPriority = 45,
+        --    Enhancements = { "NaniteMissileSystem" },
+        --    HelpText = "<LOC url0301_AntiAir_help>Support Armored Command Unit. Enhanced during construction with the nanite missile system enhancement.",
+        --    SortCategory = "SORTOTHER",
+        --    UnitName = "<LOC url0301_AntiAir_name>SACU (Anti-Air preset)",
+        --},
+        --Cloak = {
+        --    Description = "<LOC url0301_Cloak_desc>SACU (Cloak preset)",
+        --    BuildIconSortPriority = 35,
+        --    Enhancements = {
+        --        "FocusConvertor",
+        --        "StealthGenerator",
+        --        "CloakingGenerator",
+        --    },
+        --    HelpText = "<LOC url0301_Cloak_help>Support Armored Command Unit. Enhanced during construction with the personal cloaking generator and disintegrator amplifier enhancements.",
+        --    SortCategory = "SORTOTHER",
+        --    UnitName = "<LOC url0301_Cloak_name>SACU (Cloak preset)",
+        --},
+        --Rambo = {
+        --    Description = "<LOC url0301_Rambo_desc>Support Armored Command Unit (Rambo preset)",
+        --    BuildIconSortPriority = 25,
+        --    Enhancements = {
+        --        "EMPCharge",
+        --        "FocusConvertor",
+        --        "SelfRepairSystem",
+        --    },
+        --    HelpText = "<LOC url0301_Rambo_help>Support Armored Command Unit. Enhanced during construction with the EMP burst, disintegrator amplifier and nano-repair system enhancements.",
+        --    SortCategory = "SORTOTHER",
+        --    UnitName = "<LOC url0301_Rambo_name>SACU (Rambo preset)",
+        --},
+        --Stealth = {
+        --    Description = "<LOC url0301_Stealth_desc>SACU (Stealth preset)",
+        --    BuildIconSortPriority = 30,
+        --    Enhancements = { "StealthGenerator" },
+        --    HelpText = "<LOC url0301_Stealth_help>Support Armored Command Unit. Enhanced during construction with the personal stealth generator enhancement.",
+        --    SortCategory = "SORTOTHER",
+        --    UnitName = "<LOC url0301_Stealth_name>SACU (Stealth preset)",
+        --},
+
     },
     Enhancements = {
         -- Left

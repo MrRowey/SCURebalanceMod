@@ -16,7 +16,7 @@ UnitBlueprint {
     EnhancementPresets = {
         Engineer = {
             Description = "<LOC xsl0301_Engineer_desc>SACU (Engineer preset)",
-            BuildIconSortPriority = 20,
+            BuildIconSortPriority = 5,
             Enhancements = { "EngineeringThroughput" },
             HelpText = "<LOC xsl0301_Engineer_help>Support Armored Command Unit. Enhanced during construction with the rapid fabricator enhancement.",
             SortCategory = "SORTOTHER",
@@ -24,7 +24,7 @@ UnitBlueprint {
         },
         Missile = {
             Description = "<LOC xsl0301_Missile_desc>SACU (Missile preset)",
-            BuildIconSortPriority = 40,
+            BuildIconSortPriority = 10,
             Enhancements = {
                 "EngineeringThroughput",
                 "Missile",
@@ -43,7 +43,7 @@ UnitBlueprint {
         },
         AdvancedCombat = {
             Description = "<LOC xsl0301_AdvancedCombat_desc>SACU (Advanced Combatant preset)",
-            BuildIconSortPriority = 30,
+            BuildIconSortPriority = 20,
             Enhancements = {
                 "EnhancedSensors",
                 "DamageStabilization",
@@ -66,7 +66,7 @@ UnitBlueprint {
         },
         ExperimentalCombat = {
             Description = "<LOC xsl0301_Rambo_desc>SACU (Rambo preset)",
-            BuildIconSortPriority = 35,
+            BuildIconSortPriority = 30,
             Enhancements = {
                 "Overcharge",
                 "Shield",
@@ -76,6 +76,18 @@ UnitBlueprint {
             SortCategory = "SORTOTHER",
             UnitName = "<LOC xsl0301_Rambo_name>SACU (Rambo preset)",
         },
+        --Rambo = {
+        --    Description = "<LOC xsl0301_Rambo_desc>SACU (Rambo preset)",
+        --    BuildIconSortPriority = 35,
+        --    Enhancements = {
+        --        "Overcharge",
+        --        "Shield",
+        --        "DamageStabilization",
+        --    },
+        --    HelpText = "<LOC xsl0301_Rambo_help>Support Armored Command Unit. Enhanced during construction with the personal shield generator, nano-repair system and overcharge enhancements.",
+        --    SortCategory = "SORTOTHER",
+        --    UnitName = "<LOC xsl0301_Rambo_name>SACU (Rambo preset)",
+        --},
 
     },
     Enhancements = {

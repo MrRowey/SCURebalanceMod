@@ -248,7 +248,7 @@ UnitBlueprint {
             Mesh = "/effects/entities/Shield01/Shield01_mesh",
             MeshZ = "/effects/entities/Shield01/Shield01z_mesh",
             Name = "<LOC enhancements_0074>Shield Generator Field",
-            -- Prerequisite = "Shield",
+            --Prerequisite = "Shield",
             ShieldEnergyDrainRechargeTime = 5,
             ShieldMaxHealth = 25000,
             ShieldRechargeTime = 120,

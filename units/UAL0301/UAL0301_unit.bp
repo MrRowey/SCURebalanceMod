@@ -70,6 +70,42 @@ UnitBlueprint {
             SortCategory = "SORTOTHER",
             UnitName = "<LOC ual0301_ExperimentalCombat_name>SACU (Experimental Combat preset)",
         },
+        
+        -- Not Using
+        --NanoCombat = {
+        --    Description = "<LOC ual0301_NanoCombat_desc>SACU (Nano Combatant preset)",
+        --    BuildIconSortPriority = 25,
+        --    Enhancements = {
+        --        "StabilitySuppressant",
+        --        "SystemIntegrityCompensator",
+        --    },
+        --    HelpText = "<LOC ual0301_NanoCombat_help>Support Armored Command Unit. Enhanced during construction with the reacton refractor and nano-repair system enhancements.",
+        --    SortCategory = "SORTOTHER",
+        --    UnitName = "<LOC ual0301_NanoCombat_name>SACU (Nano Combatant preset)",
+        --},
+        --Rambo = {
+        --    Description = "<LOC ual0301_Rambo_desc>SACU (Rambo preset)",
+        --    BuildIconSortPriority = 35,
+        --    Enhancements = {
+        --        "StabilitySuppressant",
+        --        "Shield",
+        --        "ShieldHeavy",
+        --    },
+        --    HelpText = "<LOC ual0301_Rambo_help>Support Armored Command Unit. Enhanced during construction with a personal shield and the reacton refractor enhancements.",
+        --    SortCategory = "SORTOTHER",
+        --    UnitName = "<LOC ual0301_Rambo_name>SACU (Rambo preset)",
+        --},
+        --ShieldCombat = {
+        --    Description = "<LOC ual0301_ShieldCombat_desc>SACU (Shield Combatant preset)",
+        --    BuildIconSortPriority = 30,
+        --    Enhancements = {
+        --        "StabilitySuppressant",
+        --        "Shield",
+        --    },
+        --    HelpText = "<LOC ual0301_ShieldCombat_help>Support Armored Command Unit. Enhanced during construction with a personal shield and the reacton refractor enhancements.",
+        --    SortCategory = "SORTOTHER",
+        --    UnitName = "<LOC ual0301_ShieldCombat_name>SACU (Shield Combatant preset)",
+        --},
     },
     Enhancements = {
          -- Left Arm
