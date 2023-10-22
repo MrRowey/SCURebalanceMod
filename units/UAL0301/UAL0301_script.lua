@@ -82,7 +82,6 @@ UAL0301 = ClassUnit(CommandUnit) {
             self:RemoveToggleCap('RULEUTC_ShieldToggle')
             -- ResourceAllocation
         elseif enh == 'ResourceAllocation' then
-            local bp = self.Blueprint.Enhancements[enh]
             local bpEcon = self.Blueprint.Economy
             if not bp then return end
             self:SetProductionPerSecondEnergy((bp.ProductionPerSecondEnergy + bpEcon.ProductionPerSecondEnergy) or 0)
@@ -150,13 +149,6 @@ UAL0301 = ClassUnit(CommandUnit) {
             wep:AddDamageRadiusMod(bp.NewDamageRadiusMod or 0)
             wep:ChangeMaxRadius(bp.NewMaxRadius or 25)
         end
-    end,
-
-    CreateHeavyShield = function(self, bp)
-        WaitTicks(1)
-        self:CreateShield(bp)
-        self:SetEnergyMaintenanceConsumptionOverride(bp.MaintenanceConsumptionPerSecondEnergy or 0)
-        self:SetMaintenanceConsumptionActive()
     end,
 }
 
