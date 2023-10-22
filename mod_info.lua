@@ -1,11 +1,11 @@
 name = "SCU Rebalance"
-version = 6
+version = 7
 copyright = "Rowey"
 description = "Rowey's Idea for what to do with the balance of the all the faction SCUs"
 author = "Rowey"
 url = ""
 icon = ""
-uid = "SCU-v06"
+uid = "SCU-v07"
 exclusive = false
 ui_only = false
 conflicts = {}
