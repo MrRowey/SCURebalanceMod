@@ -1,10 +1,7 @@
-name: Bug Report
+name: Bug Report v2
 description: File a bug report
 title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
@@ -13,9 +10,9 @@ body:
   - type: input
     id: contact
     attributes:
-      label: Contact Details
+      label: Discord Username
       description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      placeholder: Spaceman
     validations:
       required: false
   - type: textarea
@@ -33,21 +30,11 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - v7 (Latest)
+        - V6 (Last)
       default: 0
     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
   - type: textarea
     id: logs
     attributes:
