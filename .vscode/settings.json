@@ -22,5 +22,16 @@
     "Lua.workspace.library": [
         "${3rd}/fa/library"
     ],
-    "Lua.workspace.checkThirdParty": false
+    "Lua.workspace.checkThirdParty": false,
+
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#324376",
+        "activityBar.foreground": "#F5DD90",
+        "statusBar.background": "#324376",
+        "statusBar.foreground": "#F5DD90",
+        "titleBar.activeBackground": "#324376",
+        "titleBar.activeForeground": "#F5DD90",
+        "titleBar.inactiveBackground": "#324376",
+        "titleBar.inactiveForeground": "#F5DD90"
+    }
 }
